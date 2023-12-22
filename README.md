@@ -1,5 +1,5 @@
 <h1>request-credit-system</h1>
-<p align="center">API Rest para um Sistema de Analise de Solicitação de Crédito</p>
+<p align="center">API Rest de compras Desafio LuizaLabs</p>
 <p align="center">
      <a alt="Java">
         <img src="https://img.shields.io/badge/Java-v12-blue.svg" />
@@ -17,7 +17,7 @@
         <img src="https://img.shields.io/badge/ModelMapper-v2.3.0-darkblue.svg" />
     </a>
     <a alt="Spring-Fox">
-        <img src="https://img.shields.io/badge/Spring-Fox-v2.9.2-darkblue.svg" />
+        <img src="https://img.shields.io/badge/Spring-Fox-v2.9.2-yellow.svg" />
     </a>
     <a alt="Flyway">
         <img src="https://img.shields.io/badge/Flyway-v6.0.8-red.svg">
@@ -30,8 +30,20 @@
 <h3>Descrição do Projeto</h3>
 <figure>
 <p align="center">
-  <img src="https://i.imgur.com/7phya16.png" height="350" width="450" alt="API para Sistema de Avaliação de Créditos"/><br>
-  Diagrama UML Simplificado de uma API para Sistema de Avaliação de Crédito
+  Desenvolver uma aplicação do tipo API, essa deverá fornecer serviços Rest para cadastros e consultas.
+Apis da aplicação:
+ - CRUD de clientes simples
+ - cadastros de produtos, com quantidade em estoque, valor de custo do mesmo e margem de lucro.
+ - Api para compra de produtos
+ - deverá receber o cliente, valor total da compra (validar para que não seja menor que o valor de custo), valor de desconto 
+ - Api para listagem de produtos
+ - Deverá trazer a lista de produtos com a quantidade de produtos vendidos, em estoque, e lucro total obtido por produto.
+
+- Não precisa levar em conta, demais custos, como impostos por exemplo.
+- Atenção com cálculos matemáticos em java.
+- Os dados devem ser salvos em banco relacional a sua escolha
+- O projeto deve ser entregue no github.
+- Os dados do banco, scripts ou backup deverá ser entregue da maneira que preferir (no projeto, email, etc.).
 </p>
 </figure>
 
