@@ -1,4 +1,4 @@
-<h1>request-credit-system</h1>
+<h1>Desafil-LuizaLabs</h1>
 <p align="center">API Rest de compras Desafio LuizaLabs</p>
 <p align="center">
      <a alt="Java">
