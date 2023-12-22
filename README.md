@@ -17,7 +17,7 @@
         <img src="https://img.shields.io/badge/ModelMapper-v2.3.0-darkblue.svg" />
     </a>
     <a alt="Spring-Fox">
-        <img src="https://img.shields.io/badge/Spring-Fox-v2.9.2-blue.svg" />
+        <img src="https://img.shields.io/badge/SpringFox-v2.9.2-blue.svg" />
     </a>
     <a alt="Flyway">
         <img src="https://img.shields.io/badge/Flyway-v6.0.8-red.svg">
