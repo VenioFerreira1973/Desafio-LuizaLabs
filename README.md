@@ -10,6 +10,9 @@
     <a alt="Maven">
         <img src="https://img.shields.io/badge/Maven-v12-lightgreen.svg" />
     </a>
+    <a alt="Mysql">
+        <img src="https://img.shields.io/badge/Mysql-v8.0-orange.svg" />
+    </a>
     <a alt="Squigly">
         <img src="https://img.shields.io/badge/Squigly-v1.3.18-purple.svg" />
     </a>
@@ -50,11 +53,11 @@ Apis da aplicação:
 <h3>Instrução de Uso</h3>
 <p>No Terminal/Console:</p>
 <ol>
-	<li>Faça um clone do projeto na sua máquina: <code>git clone [git@github.com:VenioFerreira1973/credit-application-system.git](https://github.com/VenioFerreira1973/credit-application-system.git)</code></li>
-	<li>Entre na pasta raiz do projeto: <code>cd </code></li> 
-	<li>Execute o comando: <code>./gradlew bootrun</code></li>
+	<li>Faça um clone do projeto na sua máquina: <code>git clone [git@github.com:VenioFerreira1973/desafio-luizalabs.git](https://github.com/VenioFerreira1973/luizalabs.git)</code></li>
+	<li>Importe o projeto utilizando o Spring Tool Suite <code>cd </code></li> 
+	<li>Garanta que esteja com a JRE 12 instalada e configurada no JAVAHOME</li>
+	<li>Garanta que esteja com o Mysql instalado e configurado na máquina</li>
 </ol>
-<h6>** Visando facilitar a demostração da aplicação, recomendo instalar apenas o IntelliJ IDEA e executar o projeto através da IDE **</h6>
 
 <h3>Autor</h3>
 
