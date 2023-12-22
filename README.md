@@ -57,6 +57,8 @@ Apis da aplicação:
 	<li>Importe o projeto utilizando o Spring Tool Suite <code>cd </code></li> 
 	<li>Garanta que esteja com a JRE 12 instalada e configurada no JAVAHOME</li>
 	<li>Garanta que esteja com o Mysql instalado e configurado na máquina</li>
+	<li>Após subir a aplicação utilize o Postman para realização dos testes</li>
+	<li>A API foi documentada com OpenAPI Swagger UI e SpringFox, para visualizar a documentação utilize no browser: <code>http://localhost:8080/swagger-ui.html#/</code></li>
 </ol>
 
 <h3>Autor</h3>
