@@ -54,7 +54,7 @@ Apis da aplicação:
 <p>No Terminal/Console:</p>
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone [git@github.com:VenioFerreira1973/desafio-luizalabs.git](https://github.com/VenioFerreira1973/luizalabs.git)</code></li>
-	<li>Importe o projeto utilizando o Spring Tool Suite <code>cd </code></li> 
+	<li>Importe o projeto utilizando o Spring Tool Suite</li> 
 	<li>Garanta que esteja com a JRE 12 instalada e configurada no JAVAHOME</li>
 	<li>Garanta que esteja com o Mysql instalado e configurado na máquina</li>
 	<li>Após subir a aplicação utilize o Postman para realização dos testes</li>
