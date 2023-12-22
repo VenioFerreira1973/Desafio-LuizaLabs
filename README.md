@@ -32,7 +32,7 @@
 
 <h3>Descrição do Projeto</h3>
 <figure>
-<p align="center">
+<p align="left">
   Desenvolver uma aplicação do tipo API, essa deverá fornecer serviços Rest para cadastros e consultas.
 Apis da aplicação:
  - CRUD de clientes simples
