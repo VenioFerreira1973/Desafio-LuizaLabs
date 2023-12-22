@@ -51,7 +51,6 @@ Apis da aplicação:
 </figure>
 
 <h3>Instrução de Uso</h3>
-<p>No Terminal/Console:</p>
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone [git@github.com:VenioFerreira1973/desafio-luizalabs.git](https://github.com/VenioFerreira1973/luizalabs.git)</code></li>
 	<li>Importe o projeto utilizando o Spring Tool Suite</li> 
