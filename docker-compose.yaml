@@ -1,0 +1,28 @@
+version: "3.9"
+
+networks:
+  luiza-network:
+    driver: bridge
+  
+services:
+  luiza-mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+      - "3307:3306"
+    networks:
+      - luiza-network
+      
+  luiza-api:
+    build: .
+    command: ["/wait-for-it.sh", "luiza-mysql:3306", "-t", "30", "--", "java", "-jar", "api.jar"]
+    environment:
+      DB_HOST: luiza-mysql
+    ports: 
+      - "8080:8080"
+    networks:
+      - luiza-network
+    depends_on:
+      - luiza-mysql
+      

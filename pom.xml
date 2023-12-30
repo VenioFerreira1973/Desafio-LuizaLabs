@@ -8,10 +8,10 @@
     <version>2.2.2.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.luizaLabs</groupId>
-  <artifactId>compras-api</artifactId>
+  <groupId>com.luiza</groupId>
+  <artifactId>luiza-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>compras-api</name>
+  <name>luiza-api</name>
   <description>API de compras</description>
 
   <properties>

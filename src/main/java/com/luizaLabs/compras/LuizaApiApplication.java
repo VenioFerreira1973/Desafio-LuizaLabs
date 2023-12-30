@@ -10,7 +10,7 @@ import com.luizaLabs.compras.infrastructure.repository.impl.CustomJpaRepositoryI
 
 @SpringBootApplication
 @EnableJpaRepositories(repositoryBaseClass = CustomJpaRepositoryImpl.class)
-public class LuizaLabsApiApplication {
+public class LuizaApiApplication {
 
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class LuizaLabsApiApplication {
 		//var app = new SpringApplication(LuizaLabsApiApplication.class);
 		//app.run(args);
 		
-		SpringApplication.run(LuizaLabsApiApplication.class, args);
+		SpringApplication.run(LuizaApiApplication.class, args);
 	}
 
 }
