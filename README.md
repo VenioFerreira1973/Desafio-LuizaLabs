@@ -32,7 +32,7 @@
 
 <h3>Descrição do Projeto</h3>
 <figure>
-<p align="center">
+<p align="left">
   Desenvolver uma aplicação do tipo API, essa deverá fornecer serviços Rest para cadastros e consultas.
 Apis da aplicação:
  - CRUD de clientes simples
@@ -51,12 +51,13 @@ Apis da aplicação:
 </figure>
 
 <h3>Instrução de Uso</h3>
-<p>No Terminal/Console:</p>
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone [git@github.com:VenioFerreira1973/desafio-luizalabs.git](https://github.com/VenioFerreira1973/luizalabs.git)</code></li>
-	<li>Importe o projeto utilizando o Spring Tool Suite <code>cd </code></li> 
+	<li>Importe o projeto utilizando o Spring Tool Suite</li> 
 	<li>Garanta que esteja com a JRE 12 instalada e configurada no JAVAHOME</li>
 	<li>Garanta que esteja com o Mysql instalado e configurado na máquina</li>
+	<li>Após subir a aplicação utilize o Postman para realização dos testes</li>
+	<li>A API foi documentada com OpenAPI Swagger UI e SpringFox, para visualizar a documentação utilize no browser: <code>http://localhost:8080/swagger-ui.html#/</code></li>
 </ol>
 
 <h3>Autor</h3>
