@@ -53,7 +53,7 @@ Apis da aplicação:
 <h3>Instrução de Uso</h3>
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone [git@github.com:VenioFerreira1973/desafio-luizalabs.git](https://github.com/VenioFerreira1973/luizalabs.git)</code></li>
-	<li>No console do sistema operacional navegar para o diretório kyros-api (que é onde fica os arquivos do backend)</li> 
+	<li>No console do sistema operacional navegar para o diretório luizalabs-api (que é onde fica os arquivos do backend)</li> 
 	<li>Executar o comando: docker compose up (para criar os containers da API e do banco de dados Mysql)</li>
 	<li>Após subir a aplicação utilize o Postman para realização dos testes</li>
 	<li>A API foi documentada com OpenAPI Swagger UI e SpringFox, para visualizar a documentação utilize no browser: <code>http://localhost:8080/swagger-ui.html#/</code></li>
